@@ -1,5 +1,5 @@
 ---
-title: "Presentando 'Compañero de Código': Una Guía sobre IA en la Programación"
+title: "Presentando 'Compañero de Código': Una Guía Práctica sobre IA en Programación"
 date: 2025-06-20
 ---
 
@@ -15,29 +15,26 @@ Viendo esta necesidad entre mis compañeros de la UNPSJB y la comunidad estudian
 
 Es un proyecto educativo enfocado en ser una guía sobre el estado de las herramientas de asistencia por IA para la programación en 2025. El corazón del proyecto es una **infografía interactiva de una sola página (SPA)** que resume los datos clave, comparativas y tendencias de una forma visual y amigable.
 
-Pero no es solo una infografía. He desarrollado una serie de recursos complementarios para crear una experiencia de aprendizaje integral.
+Pero el proyecto va más allá de solo mostrar datos. Incluye una serie de recursos prácticos para empoderar a otros estudiantes.
 
-### Recursos Incluidos en el Proyecto
+### Un Recurso Clave: La Guía para el GitHub Student Pack en la UNPSJB
 
-* [cite_start]**Infografía Interactiva:** La página principal que visualiza los datos más importantes de la investigación.
-* [cite_start]**Guías Prácticas:** Tutoriales detallados y basados en mi propia experiencia para instalar y empezar a usar **GitHub Copilot** [cite: 1][cite_start], y para solicitar y obtener los beneficios del **GitHub Student Pack**.
-* [cite_start]**Aprendizaje de "Prompting":** Una **guía interactiva** diseñada para enseñar a los estudiantes sobre "Ingeniería de Prompts", una habilidad crucial para interactuar con IAs.
-* [cite_start]**Datos y Tendencias:** Secciones dedicadas a visualizar las **tendencias de uso** de estas herramientas entre estudiantes y una guía completa sobre los **beneficios y recursos gratuitos** disponibles para nuestro sector.
-* [cite_start]**Investigación y Comunidad:** Un enlace al **documento de investigación completo** con todo el análisis y una **encuesta** para seguir recopilando datos sobre la experiencia de los estudiantes.
+Uno de los recursos de especial interés dentro del proyecto es la **"Guía Definitiva para Obtener el GitHub Student Pack"**. Como muchos en la UNPSJB sabemos, la falta de un correo institucional `@edu` nos causa rechazos automáticos. Esta guía es un tutorial detallado, **basado en un caso real y exitoso**, que explica paso a paso cómo superar esos rechazos, qué documentación preparar, cómo traducirla usando IA y cómo contactar a soporte para asegurar la aprobación. Es la solución a un problema frustrante y común que enfrentamos.
 
-## Tecnologías Utilizadas
+### Otros Recursos Incluidos
 
-Para construir este proyecto, utilicé un stack de tecnologías web modernas y de código abierto, lo que me permitió afianzar mis conocimientos en:
+Además de esa guía, encontrarás tutoriales para **GitHub Copilot**, una guía interactiva sobre **Ingeniería de Prompts**, una visualización de las **tendencias de uso de IA** entre estudiantes y una página que recopila **beneficios y recursos gratuitos** para nuestro sector.
 
-* [cite_start]**HTML5** y **CSS3** con el framework **Tailwind CSS** para un diseño ágil y responsivo.
-* [cite_start]**JavaScript (Vanilla JS)** para toda la interactividad de la página.
-* [cite_start]**Chart.js** para la creación de los gráficos y visualizaciones de datos dinámicas.
-* [cite_start]Todo el proyecto está alojado de forma gratuita y accesible para todos a través de **GitHub Pages**.
+## Tecnologías y Metodología
+
+Para construir este proyecto, utilicé un stack de tecnologías web modernas y de código abierto como **HTML5, CSS3 con Tailwind CSS, y JavaScript (Vanilla JS)**, usando **Chart.js** para las visualizaciones de datos.
+
+Es importante destacar que todo el proceso de investigación, redacción y hasta la generación de código fue **asistido por las mismas herramientas de IA que se analizan en el proyecto**. Apliqué en la práctica los conceptos de "Ingeniería de Prompts" que se enseñan en una de las guías, demostrando el potencial real de estas tecnologías en un flujo de trabajo de desarrollo.
 
 ## ¡Explora el Proyecto!
 
-Este proyecto ha sido una experiencia de aprendizaje increíble, no solo sobre IA, sino también sobre desarrollo frontend, visualización de datos y creación de productos digitales. Te invito a que lo explores, utilices sus recursos y, si eres estudiante, ¡participes en la encuesta!
+Este proyecto ha sido una experiencia de aprendizaje increíble, no solo sobre IA, sino también sobre desarrollo frontend, visualización de datos y creación de productos digitales. Te invito a que lo explores, utilices sus recursos y compartas tu feedback.
 
-[cite_start]🚀 **Puedes ver el proyecto en vivo aquí: [Compañero de Código](https://MiyoBran.github.io/companero-de-codigo/)** 
+🚀 **Puedes ver el proyecto completo en vivo aquí: [Compañero de Código](https://MiyoBran.github.io/companero-de-codigo/)**
 
-Gracias por leer, y cualquier feedback es más que bienvenido.
+Gracias por leer, y cualquier comentario es más que bienvenido.
