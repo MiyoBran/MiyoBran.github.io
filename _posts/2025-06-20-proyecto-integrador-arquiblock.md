@@ -40,6 +40,7 @@ Este trabajo integrador fue una experiencia de aprendizaje fundamental en varias
 Te invito a explorar la presentación web del proyecto.
 
 🚀 **Puedes ver la presentación en vivo aquí: [ArquiBlock - Informe Final](https://miyobran.github.io/arquiblock-presentacion/)**
+
 📄 **Y si prefieres un resumen más directo, también preparamos una [infografia simplificada en este enlace.](https://miyobran.github.io/arquiblock-presentacion/presentacion.html)**
 
 ¡Gracias por leer! Cualquier comentario sobre el proyecto es bienvenido.
