@@ -1,7 +1,7 @@
 [English](index.en.md) | Español
 
 ---
-title: ¡Bienvenido a mi espacio profesional!
+¡Bienvenido a mi espacio profesional!
 ---
 
 # Carlos Miyén Brandolino
