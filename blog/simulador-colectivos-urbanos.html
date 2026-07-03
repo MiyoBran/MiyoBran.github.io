@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador de Colectivos Urbanos: Grafos, Algoritmos y Java — Carlos Miyén Brandolino</title>
+<meta name="description" content="Proyecto integrador de Algorítmica y Programación II: simulador de una red de transporte en Java 21 con grafos, Dijkstra y más de 100 tests.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="../index.html">CARLOS M. BRANDOLINO</a>
+  </div>
+</header>
+
+<main class="article">
+  <a class="back" href="../index.html#blog">← Volver al portfolio</a>
+  <h1>Simulador de Colectivos Urbanos: Un Proyecto de Grafos, Algoritmos y Java</h1>
+  <time datetime="2025-06-26">26 de junio de 2025</time>
+
+  <p>Hoy presento con mucho orgullo el proyecto integrador final de la materia <strong>Algorítmica y Programación II</strong>, una de las cátedras centrales de la Licenciatura en Informática. Junto a mi compañero Enzo, desarrollamos un <strong>Simulador de Colectivos Urbanos</strong>, un sistema complejo diseñado no solo para simular, sino para analizar la eficiencia de una red de transporte.</p>
+
+  <h2>El Desafío: Modelar la Complejidad de un Sistema de Transporte</h2>
+  <p>El objetivo era claro: crear un motor de simulación en Java capaz de procesar el funcionamiento de múltiples líneas de colectivos. Esto implicaba gestionar el movimiento ciclo a ciclo de cada unidad, la subida y bajada de pasajeros en las paradas, y el control de la capacidad máxima de cada colectivo, diferenciando incluso entre pasajeros sentados y parados.</p>
+  <p>Pero el verdadero reto era ir más allá de la simulación y construir herramientas para analizar y optimizar el sistema.</p>
+
+  <h2>Nuestra Solución Técnica</h2>
+  <p>Para construir una solución robusta y mantenible, nos apoyamos en tres pilares técnicos fundamentales:</p>
+
+  <h3>1. Encontrando el Mejor Camino: Grafos y el Algoritmo de Dijkstra</h3>
+  <p>El corazón del módulo de planificación es la representación de la red de transporte como un <strong>grafo dirigido</strong>, donde cada parada es un vértice y cada tramo de ruta una arista con un peso (distancia o tiempo). Para calcular la ruta óptima entre dos puntos cualesquiera, implementamos el <strong>algoritmo de Dijkstra</strong>, una demostración práctica de la aplicación de la teoría de grafos para resolver problemas del mundo real.</p>
+
+  <h3>2. Calidad de Código: Arquitectura por Capas y una Suite de +100 Tests</h3>
+  <p>Desde el inicio, el diseño del software fue una prioridad. Implementamos una estricta <strong>arquitectura por capas</strong> (modelo, datos, lógica e interfaz) y un patrón Controlador-UI para asegurar una clara separación de responsabilidades.</p>
+  <p>Pero el mayor compromiso con la calidad se refleja en nuestra suite de pruebas. Desarrollamos más de <strong>100 pruebas unitarias utilizando JUnit 5 y el framework de mocks Mockito</strong>. Esta extensa cobertura de tests garantiza la robustez, el correcto funcionamiento de cada componente y la mantenibilidad del código a largo plazo, adoptando una práctica esencial en el desarrollo de software profesional.</p>
+
+  <h3>3. Un Ecosistema Java Moderno</h3>
+  <p>Todo el proyecto fue desarrollado con <strong>Java 21</strong>, utilizando <strong>Apache Maven</strong> para la gestión de dependencias y la construcción del proyecto, lo que nos permitió manejar librerías externas e internas de forma ordenada.</p>
+
+  <h2>Características y Resultados</h2>
+  <p>El simulador final no solo ejecuta el movimiento, sino que también genera un completo reporte de estadísticas que incluye:</p>
+  <ul>
+    <li><strong>Índice de Satisfacción del Pasajero:</strong> Una métrica que calcula qué tan buena fue la experiencia del usuario, basándose en si consiguió asiento o si tuvo que esperar a más de un colectivo.</li>
+    <li><strong>Ocupación Promedio:</strong> Reportes detallados del porcentaje de ocupación de cada colectivo.</li>
+    <li><strong>Desglose de Viajes:</strong> Información clave sobre cuántos pasajeros llegaron a su destino y cuántos no pudieron completar su viaje.</li>
+  </ul>
+
+  <h2>Conclusión</h2>
+  <p>Este proyecto fue un desafío increíble que nos permitió aplicar y profundizar en conceptos fundamentales de la algorítmica, las estructuras de datos, el diseño de software y las buenas prácticas de ingeniería. Fue una experiencia de aprendizaje inmensa, desde la implementación de algoritmos clásicos hasta la construcción de una base de código resiliente gracias al testing automatizado.</p>
+  <p>Te invito a explorar el código fuente, la documentación y la arquitectura completa en el repositorio.</p>
+
+  <p class="cta-repo">🚀 <strong>Puedes ver el proyecto completo en GitHub aquí: <a href="https://github.com/MiyoBran/simulador-colectivos" target="_blank" rel="noopener">Simulador de Colectivos Urbanos</a></strong></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Carlos Miyén Brandolino</p>
+    <p><a href="../index.html#blog">← Volver al portfolio</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
